@@ -2,7 +2,8 @@ buildscript {
     ext.kotlin_version = '1.2.10'
 
     repositories {
-        mavenCentral()
+        //mavenCentral()
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
     }
 
     dependencies {
@@ -18,7 +19,9 @@ sourceSets {
 }
 
 repositories {
-    mavenCentral()
+    //mavenCentral()
+    maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+
 }
 
 dependencies {
